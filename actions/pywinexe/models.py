@@ -82,6 +82,7 @@ class Request(object):
         winexe_cmd = self.command()
         log.debug("Executing command: %s" % self.command_str())
         print("Executing command: %s" % self.command_str())
+        print(winexe_cmd)
         try:
             output = subprocess.check_output(winexe_cmd,
                                              stderr=subprocess.STDOUT)
