@@ -1,4 +1,4 @@
-from .pywinexe.api import cmd as run_cmd
+from pywinexe.api import cmd as run_cmd
 
 from st2common.runners.base_action import Action
 
